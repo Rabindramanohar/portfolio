@@ -19,63 +19,44 @@ export class ProfileService {
       'skill': 'ANGULAR 6',
       'progress': '85%'
     },
-    {
-      'id': '2',
-      'skill': 'PHP\/CODEIGNITER',
-      'progress': '80%'
-    },
-    {
-      'id': '3',
-      'skill': 'C++',
-      'progress': '80%'
-    },
-    {
-      'id': '4',
-      'skill': 'PYTHON',
-      'progress': '75%'
-    },
-    {
-      'id': '5',
-      'skill': 'ADOBE ILLUSTRATOR',
-      'progress': '75%'
-    },
+   
     {
       'id': '6',
       'skill': 'DATA STRUCTURE',
-      'progress': '70%'
+      'progress': '80%'
     }
   ];
 
   educationData: any = [
     {
       'id': '1',
-      'from_to_year': '2016 - 2020',
+      'from_to_year': '2013 - 2017',
       'education': 'Bachelor\'s Degree',
       'stream': 'Bachelor of Engineering',
-      'institution': 'MADHAV INSTITUTE OF TECHNOLOGY AND SCIENCE, GWALIOR'
+      'institution': 'JIS College of Engineering'
     },
     {
       'id': '2',
-      'from_to_year': '2014 - 2015',
+      'from_to_year': '2010 - 2012',
       'education': 'Higher Secondary',
       'stream': 'Science and Mathematics',
-      'institution': 'GOVT. BOYS H.S. SCHOOL, DHAMNOD, DHAR'
+      'institution': 'GGPS'
     },
     {
       'id': '3',
-      'from_to_year': '2012 - 2013',
+      'from_to_year': '2009 - 2010',
       'education': 'High School',
       'stream': 'Science and Mathematics',
-      'institution': 'SARSWATI SHISHU VIDHYA MANDIR, DHAMNOD, DHAR'
+      'institution': 'Wetge public school'
     }
   ];
 
   exprienceData: any = [
     {
       'id': '1',
-      'from_to_month_year': 'JUNE 2018 - AUGUST 2018',
-      'organization': 'WITTYFEED',
-      'designation': 'Full Stack Developer',
+      'from_to_month_year': 'MAY 2018 ',
+      'organization': 'Zensar Technology',
+      'designation': 'Software Developer',
       'details': `Created fully functional projects for <strong>WittyFeed<\/strong>,
       A publisher Dashboard was created using <strong>Angular 6, CodeIgniter 3 , Rest API and JWT (Json Web Token).
       <\/strong> It involves multiple modules like Analytics, Stories, RSS Links, Payments.
@@ -85,17 +66,10 @@ export class ProfileService {
     },
     {
       'id': '2',
-      'from_to_month_year': 'OCTOBER 2017 - NOVEMBER 2017',
-      'organization': 'MITS, GWALIOR',
-      'designation': 'Web Developer',
-      'details': 'Designed the Official Website of the <strong>INDUSTRY CONCLAVE<\/strong>.'
-    },
-    {
-      'id': '3',
-      'from_to_month_year': 'AUGUST 2017 - SEPTEMBER 2017',
-      'organization': 'QUERENCIA CLUB (MITS)',
-      'designation': 'Web Developer',
-      'details': 'Developed the Official Website of the <strong>MITSVAH Literary Fest<\/strong>\r\nUnder <strong>Querencia CLUB<\/strong>.'
+      'from_to_month_year': 'Nov 2017 - April 2018',
+      'organization': 'Jspiders',
+      'designation': ' intern',
+      'details': 'Worked on java/j2ee and jsp web development.'
     }
   ];
   // contactus(data: any): Observable<any> {

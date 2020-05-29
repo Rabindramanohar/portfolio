@@ -9,11 +9,11 @@ export const environment = {
   //baseUrl : `${window.location.protocol}//${window.location.hostname}/portfolio/`,
   //baseUrl : `http://localhost:4200/`,
 
-  snotifyConfig : {
+/*   snotifyConfig : {
     showProgressBar: true,
     position: SnotifyPosition.rightTop,
-  },
-};
+  },*/
+}; 
 
 /*
  * For easier debugging in development mode, you can import the following file
