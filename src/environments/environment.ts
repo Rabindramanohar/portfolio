@@ -14,7 +14,15 @@ export const environment = {
     position: SnotifyPosition.rightTop,
   },*/
 
-  
+  firebaseConfig : {
+    apiKey: "AIzaSyDY_r0NDAz_z_G5KFySjLXYe-6o6o-uW50",
+    authDomain: "contact-form-db-1ca24.firebaseapp.com",
+    databaseURL: "https://contact-form-db-1ca24.firebaseio.com",
+    projectId: "contact-form-db-1ca24",
+    storageBucket: "contact-form-db-1ca24.appspot.com",
+    messagingSenderId: "207204627839",
+    appId: "1:207204627839:web:b3c6704459a984ac59564a"
+  }
 }; 
 
 /*
