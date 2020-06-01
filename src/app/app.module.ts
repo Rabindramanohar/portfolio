@@ -7,6 +7,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { ProfileModule } from './profile/profile.module';
 import { HttpClientModule } from '@angular/common/http';
 
+import { AngularFireModule } from "@angular/fire";
+import { AngularFirestoreModule } from "@angular/fire/firestore";
+import { environment } from 'src/environments/environment';
+
 const routes: Routes = [
   {
     path: '',
@@ -26,7 +30,9 @@ const config: ExtraOptions = {
     BrowserModule,
     RouterModule.forRoot(routes, config),
     ProfileModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),       
+    AngularFirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
